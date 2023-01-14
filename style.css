@@ -1,0 +1,57 @@
+body {
+  /* Font */
+  font-family: 'Caveat', cursive;
+
+  /* Background */
+  background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#dcdcdc 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #dcdcdc 2px, #ffffff 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+/* Container */
+.container {
+  margin: 15px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.container p {
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+/* Tanda Tangan */
+.ttd {
+  text-align: right;
+  margin-top: 30px;
+
+}
+
+.ttd img {
+  max-width: 110px;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    margin: 25px 50px;
+  }
+
+  .container h1 {
+    font-size: 5em;
+  }
+
+  .container p {
+    font-size: 2.4em;
+  }
+
+  .ttd {
+    font-size: 20px;
+    margin-right: 35px;
+  }
+
+  .ttd img {
+    max-width: 130px;
+  }
+}
